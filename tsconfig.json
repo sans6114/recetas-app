@@ -1,12 +1,18 @@
 {
 "compilerOptions": {
+  "target": "ES5",  // O ES6 o superior, según tus necesidades
+    "lib": [
+      "DOM", 
+      "ES2015"
+    ],
     "baseUrl": ".",
     "paths": {
       "@/*": [
         "src/*"
       ]
     },
-    "jsx": "preserve"
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
   },
   "references": [{ "path": "./tsconfig.node.json" }]
 }
