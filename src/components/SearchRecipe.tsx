@@ -21,7 +21,7 @@ export const SearchRecipe = ({ onAddRecipe }: Props) => {
   return (
     <form
       aria-label='form'
-      className='flex bg-gray-200 border-2 border-black rounded-2xl p-2'
+      className='flex bg-gray-200 shadow-xl rounded-2xl p-2'
       onSubmit={onSubmit}
     >
       <input

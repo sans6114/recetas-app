@@ -1,7 +1,6 @@
-import React from 'react';
 
-export const HomePage: React.FC = () => {
+export const CategoriesPage = () => {
   return (
-    <div>HomePage</div>
+    <div>Categories page</div>
   )
 }
