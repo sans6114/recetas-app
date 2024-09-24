@@ -13,7 +13,6 @@ export const SearchRecipe = ({ onAddRecipe }: Props) => {
   }
   const onSubmit = (e) => {
     e.preventDefault()
-    console.log('submit')
     onAddRecipe(inputValue)
     setinputValue('')
   }

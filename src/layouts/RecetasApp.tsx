@@ -10,7 +10,7 @@ export const RecetasApp = () => {
         <header>
           <NavBar />
         </header>
-        <main className="flex-grow mx-auto px-4 py-8 absolute top-1/4 z-0">
+        <main className="flex-grow mx-auto px-4 absolute top-1/4 z-0 w-full">
           <Outlet />
         </main>
         <footer className="bg-gray-100 py-4 fixed bottom-0 w-full">
